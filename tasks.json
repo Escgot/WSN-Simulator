@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build WSN",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-o", "wsn",
+                "main.cpp",
+                "Message.cpp",
+                "Node.cpp",
+                "SensorNode.cpp",
+                "SinkNode.cpp",
+                "Network.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

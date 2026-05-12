@@ -1,0 +1,22 @@
+# Build artifacts
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+
+# Simulation output (regenerated on each run)
+*.csv
+wsn_report.html
+
+# IDE / Editor
+.vs/
+.vscode/
+.qodo/
+*.sln
+*.vcxproj*
+*.user
+
+# OS files
+Thumbs.db
+.DS_Store
