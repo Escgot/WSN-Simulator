@@ -19,6 +19,20 @@ A **Wireless Sensor Network (WSN)** simulator built in C++ that models sensor no
 
 ---
 
+## 📊 Visual Dashboard
+
+The simulator auto-generates a high-end, interactive HTML dashboard comparing protocol performance.
+
+![Dashboard Preview](screenshots/dashboard.png)
+
+## 🖥️ Terminal Simulation
+
+Real-time terminal output with formatted tables and event logging.
+
+![Terminal Preview](screenshots/terminal.png)
+
+---
+
 ## 🏗️ Architecture
 
 ```
